@@ -1,0 +1,62 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+body{
+    /*background-color: #f1f1f1;*/
+}
+.logo{
+    /*background-color: red;*/
+}
+.logo > img{
+}
+.brand-name > h1{
+    /*background-color: lime;*/
+    margin-top: 5%;
+}
+.banner{
+    margin: 10px 0px 10px 0px;
+}
+.f_products img, .aside img{
+    margin: 10px 0px 10px 0px;
+}
+.brand-name{
+    text-align: right;
+}
+.aside{
+    height: 100%;
+    float:left;
+    margin-top:15%;
+    margin-bottom:auto;
+    text-align: center;
+    background-color: red;
+}
+.aside > a {
+    width : calc(100% - 30px);
+    font-weight: bold;
+    line-height: 2.1;
+    margin-top : 10px;
+    font-size: calc(100%/2);
+}
+.aside > a:last-of-type{
+    margin-bottom: 10px;
+}
+@media only screen and (max-width : 767px){
+    .brand-name{
+        text-align: left;
+    }
+    .aside{
+        order:1;
+    }
+}
+/*@media only screen and (max-width : 289px){
+    .zocial,
+    a.zocial {
+        font: bold 50%/2.1 "Lucida Grande", Tahoma, sans-serif;
+    }
+}*/
+/*@media only screen and (min-width : 290px){
+    .zocial,
+    a.zocial {
+        font: bold 80%/2.1 "Lucida Grande", Tahoma, sans-serif;
+    }
+}*/

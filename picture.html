@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>picture element with alternative sources</title>
+  <style>
+    body {
+      margin: 0
+    }
+    img {
+      width: 100vw;
+    }
+  </style>
+
+</head>
+
+<body>
+  <picture>
+    <source srcset="images/kitten-large.png" type="image/png">
+    <source srcset="images/kitten-medium.png" type="image/png">
+    <img src="images/kitten-small.png" alt="Two grey tabby kittens">
+  </picture>
+</body>
+
+  </html>

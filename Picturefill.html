@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>Picturefill picture element polyfill</title>
+
+  <style>
+    body {
+      margin: 0;
+    }
+    img {
+      width: 100vw;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+<picture>
+  <source
+    media="(min-width: 1000px)"
+    srcset="images/kookaburra_large_1x.jpg 1x, images/kookaburra_large_2x.jpg 2x">
+  <source
+    media="(min-width: 500px)"
+    srcset="images/kookaburra_medium_1x.jpg 1x, images/kookaburra_medium_2x.jpg 2x">
+  <img src="images/kookaburra_small.jpg"
+    alt="The kookaburra: a terrestrial tree kingfisher native to Australia and New Guinea (according to Wikipedia)">
+</picture>
+
+<script src="js/picturefill.min.js"></script>
+
+</body>
+
+</html>

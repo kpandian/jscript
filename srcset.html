@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Srcset Example</title>
+    <style type="text/css">
+    body {
+        align-items: center;
+        display: flex;
+        height:100vh;
+        justify-content: center;
+        margin: 30px;
+    }
+    img {
+        /*width:100vw;*/
+    }
+    </style>
+</head>
+<body>
+<!-- <img src="images/large.jpg" srcset="images/small.jpg 500w, images/medium.jpg 1000w, images/large.jpg 1500w" alt="wallaby" sizes="(max-width: 250px) 100vw, 50vw"/> -->
+<img src="images/large.jpg" srcset="images/small.jpg 500w, images/medium.jpg 1000w, images/large.jpg 1500w" alt="wallaby" sizes="100vw"/>
+</body>
+</html>
